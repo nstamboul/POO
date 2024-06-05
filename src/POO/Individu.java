@@ -12,6 +12,7 @@ abstract class Individu {
  }
 
 
+ 	
  public String getNom() {
      return nom;
  }
@@ -37,6 +38,7 @@ abstract class Individu {
  }
 
 
+ 
  		public abstract void montrerDetails();
 }
 
