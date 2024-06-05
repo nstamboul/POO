@@ -1,5 +1,7 @@
 package POO;
 
+import java.util.Date;
+
 class Etudiant extends Individu {
     private Date dateInscription;
     private String niveauEtude;
