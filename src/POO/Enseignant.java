@@ -3,12 +3,12 @@ package POO;
 public class Enseignant extends Individu {
 	private String specialisation;
 	private Double salaireMensuel;
-	
+
 	public Enseignant(String nom, String prenom, int identifiant, String specialisation, Double salaireMensuel) {
 		super(nom, prenom, identifiant);
 		this.specialisation = specialisation;
 		this.salaireMensuel = salaireMensuel;
-		
+
 	}
 
 	public String getSpecialisation() {
@@ -30,7 +30,7 @@ public class Enseignant extends Individu {
 	@Override
 	public void montrerDetails() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

@@ -28,7 +28,7 @@ class Etudiant extends Individu {
 		this.niveauEtude = niveauEtude;
 	}
 
-
+	@Override
 	public void montrerDetails() {
 		System.out.println("Nom: " + getNom() + ", Prénom: " + getPrenom() + ", Identifiant: " + getIdentifiant()
 				+ ", Date d'inscription: " + dateInscription + ", Niveau d'étude: " + niveauEtude);
